@@ -1,5 +1,4 @@
-from dash import Output, Input, html, dcc
-import fastf1
+from dash import Output, Input, html
 from utils.data_loader import load_session, get_events_for_season
 from utils.visualization import (
     create_laptimes_chart, create_team_comparison, create_telemetry_visualization,
